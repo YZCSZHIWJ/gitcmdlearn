@@ -39,3 +39,5 @@ git cmd use test
 #### git log
 - 查看提交的历史记录
 
+#### git log --pretty=oneline
+- 提交历史单行显示
