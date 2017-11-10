@@ -118,6 +118,9 @@ git cmd use test
 #### git remote add origin https://github.com/YZCSZHIWJ/gitcmdlearn.git
 - 添加一个远程仓库命名为origin
 
+### git remote -v
+- 查看远程仓库信息
+
 
 
 ## git push
