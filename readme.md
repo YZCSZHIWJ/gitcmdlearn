@@ -95,6 +95,12 @@ git cmd use test
 - file 自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态
 - file 已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态
 
+#### git checkout -b dev
+- 新建dev分支，并且切换到dev分支上
+
+#### git checkout dev
+- 切换到dev分支
+
 
 
 ## git rm
@@ -123,3 +129,13 @@ git cmd use test
 
 #### git clone https://github.com/YZCSZHIWJ/gitcmdlearn.git
 - 克隆远程的仓库到本地
+
+
+
+## git branch 
+
+#### git branch 
+- 列出所有分支，当前分支前面会标一个*
+
+#### git branch dev
+- 新建dev分支
