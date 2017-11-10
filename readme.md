@@ -152,3 +152,6 @@ git cmd use test
 
 #### git merge dev
 - 合并dev分支到当前分支中
+
+#### git merge --no-ff -m 'commit commend' dev
+- 强制使用普通模式合并，合并后的历史有分支，能看出来曾经做过合并
