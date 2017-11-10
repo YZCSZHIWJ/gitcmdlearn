@@ -33,6 +33,7 @@ git cmd use test
 - 添加文件file1,file2
 
 
+
 ## git commit
 
 #### git commit -m 'xx'
@@ -72,6 +73,9 @@ git cmd use test
 #### git reset --hard HEAD~n
 - 退回到上n个版本
 
+#### git reset --hard command_id
+- 回到第command_id版本id的版本上
+
 
 
 ## git reflog
@@ -81,4 +85,11 @@ git cmd use test
 
 
 
-## 
+## git checkout
+
+#### git checkout -- file
+- file 自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态
+- file 已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态
+
+
+
