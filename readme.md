@@ -50,3 +50,9 @@ git cmd use test
 
 #### git reset --hard HEAD~n
 - 退回到上n个版本
+
+
+## git reflog
+
+#### git reflog 
+- 查看提交记录
