@@ -26,3 +26,9 @@ git cmd use test
 
 #### git status 
 - 查看仓库当前的状态
+
+
+## git diff
+
+#### git diff file
+- 查看比较历史与修改过的文件file
