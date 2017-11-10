@@ -101,3 +101,17 @@ git cmd use test
 
 #### git rm file
 - 用于删除一个文件file
+
+
+
+## git remote
+
+#### git remote add origin https://github.com/YZCSZHIWJ/gitcmdlearn.git
+- 添加一个远程仓库命名为origin
+
+
+
+## git push
+
+#### git push -u origin master
+- 将本地仓库推送至远程仓库的master分支
