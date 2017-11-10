@@ -41,3 +41,12 @@ git cmd use test
 
 #### git log --pretty=oneline
 - 提交历史单行显示
+
+
+## git reset
+
+#### git reset --hard HEAD^
+- 退回到上个版本
+
+#### git reset --hard HEAD~n
+- 退回到上n个版本
