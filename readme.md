@@ -23,3 +23,6 @@ git cmd use test
 
 
 ## git status
+
+#### git status 
+- 查看仓库当前的状态
