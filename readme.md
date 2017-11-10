@@ -7,13 +7,30 @@ git cmd use test
 - 初始化一个仓库
 
 
+
+## git config
+
+#### git config -l
+- 查看配置
+
+#### git config --global user.name name
+- 全局配置
+
+#### git config --global --unset user.name
+- 取消全局配置
+
+#### git config [--global] --edit
+- 直接编辑配置项
+
+
+
 ## git add
 
 #### git add .
 - 添加所有改动
 
 #### git add file1, file2
-添加文件file1,file2
+- 添加文件file1,file2
 
 
 ## git commit
@@ -22,16 +39,19 @@ git cmd use test
 - 提交到本地仓库
 
 
+
 ## git status
 
 #### git status 
 - 查看仓库当前的状态
 
 
+
 ## git diff
 
 #### git diff file
 - 查看比较历史与修改过的文件file
+
 
 
 ## git log
@@ -43,6 +63,7 @@ git cmd use test
 - 提交历史单行显示
 
 
+
 ## git reset
 
 #### git reset --hard HEAD^
@@ -50,6 +71,7 @@ git cmd use test
 
 #### git reset --hard HEAD~n
 - 退回到上n个版本
+
 
 
 ## git reflog
