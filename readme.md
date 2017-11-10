@@ -32,3 +32,10 @@ git cmd use test
 
 #### git diff file
 - 查看比较历史与修改过的文件file
+
+
+## git log
+
+#### git log
+- 查看提交的历史记录
+
