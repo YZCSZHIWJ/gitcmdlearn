@@ -88,8 +88,10 @@ git cmd use test
 ## git checkout
 
 #### git checkout -- file
+- 把readme.txt文件在工作区的修改全部撤销，这里有两种情况:
 - file 自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态
 - file 已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态
 
 
 
+## 
