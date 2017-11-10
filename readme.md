@@ -55,4 +55,4 @@ git cmd use test
 ## git reflog
 
 #### git reflog 
-- 查看提交记录
+- 记录每一次命令
