@@ -155,3 +155,22 @@ git cmd use test
 
 #### git merge --no-ff -m 'commit commend' dev
 - 强制使用普通模式合并，合并后的历史有分支，能看出来曾经做过合并
+
+
+
+## git stash
+
+#### git stash 
+- 冻结当前操作
+
+#### git stash list
+- 查看当前冻结栈
+
+#### git stash apply 
+- 恢复冻结，但不删除冻结信息
+
+#### git stash drop
+- 删除冻结信息
+
+#### git stash pop 
+- 恢复并删除冻结信息
