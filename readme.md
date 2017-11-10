@@ -97,4 +97,7 @@ git cmd use test
 
 
 
-## git rm file
+## git rm
+
+#### git rm file
+- 用于删除一个文件file
