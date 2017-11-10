@@ -149,6 +149,9 @@ git cmd use test
 #### git branch -d dev
 - 删除dev分支
 
+#### git branch --set-upstream dev origin/dev
+- 指定本地dev分支与远程origin/dev分支的链接
+
 
 
 ## git merge 
