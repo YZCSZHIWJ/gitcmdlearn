@@ -139,3 +139,6 @@ git cmd use test
 
 #### git branch dev
 - 新建dev分支
+
+#### git branch -d dev
+- 删除dev分支
