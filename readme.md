@@ -97,4 +97,4 @@ git cmd use test
 
 
 
-## 
+## git rm file
