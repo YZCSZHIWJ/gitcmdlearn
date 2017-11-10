@@ -76,6 +76,9 @@ git cmd use test
 #### git reset --hard command_id
 - 回到第command_id版本id的版本上
 
+#### git reset HEAD file
+- 把暂存区file的修改撤销掉（unstage），重新放回工作区（即撤销git add file操作）
+
 
 
 ## git reflog
