@@ -115,3 +115,11 @@ git cmd use test
 
 #### git push -u origin master
 - 将本地仓库推送至远程仓库的master分支
+- 首次推送加上了-u参数，Git不但会把本地的master分支内容推送到远程新的master分支上，还会把本地的master分支和远程的master分支关联起
+
+
+
+## git clone
+
+#### git clone https://github.com/YZCSZHIWJ/gitcmdlearn.git
+- 克隆远程的仓库到本地
