@@ -63,6 +63,9 @@ git cmd use test
 #### git log --pretty=oneline
 - 提交历史单行显示
 
+#### git log --graph
+- 显示分支合并图
+
 
 
 ## git reset
