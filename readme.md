@@ -129,8 +129,14 @@ git cmd use test
 - 将本地仓库推送至远程仓库的master分支
 - 首次推送加上了-u参数，Git不但会把本地的master分支内容推送到远程新的master分支上，还会把本地的master分支和远程的master分支关联起
 
+#### git push origin --tags
+- 推送全部未推送过的本地标签到远程仓库
+
 #### git push origin <tagname>
 - 将标签推送到远程仓库
+
+#### git push origin :refs/tags/<tagname>
+- 删除一个远程标签
 
 
 
@@ -201,7 +207,7 @@ git cmd use test
 - 在当前分支的commit_id上打上带备注的标签
 
 #### git tag -d <tagname>
-- 删除标签
+- 可以删除一个本地标签
 
 
 
