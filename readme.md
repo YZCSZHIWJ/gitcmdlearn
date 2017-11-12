@@ -121,6 +121,9 @@ git cmd use test
 ### git remote -v
 - 查看远程仓库信息
 
+#### git remote rm origin
+- 删除已有的GitHub远程库
+
 
 
 ## git push
