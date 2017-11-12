@@ -180,3 +180,26 @@ git cmd use test
 
 #### git stash pop 
 - 恢复并删除冻结信息
+
+
+
+## git tag
+
+#### git tag
+- 查看所有的标签
+
+#### git tag <name>
+- 在当前分支的当前位置打上标签
+
+#### git tag <name> commit_id
+- 在当前分支的commit_id的提交位置打上标签
+
+#### git tag -a <tagname> -m "comment" commit_id
+- 在当前分支的commit_id上打上带备注的标签
+
+
+
+## git show
+
+#### git show <tagname>
+- 查看标签的信息
